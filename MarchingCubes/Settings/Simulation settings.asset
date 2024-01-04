@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c388859a05ec1648b0afcc5c8a11859, type: 3}
   m_Name: Simulation settings
   m_EditorClassIdentifier: 
-  gridSize: {x: 20, y: 20, z: 20}
+  gridSize: {x: 10, y: 10, z: 10}
   scale: 1
-  showGrid: 0
+  showGrid: 1
   usePerlin: 1
   useSphere: 0
   useCheese: 0

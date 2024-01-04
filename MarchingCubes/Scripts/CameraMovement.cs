@@ -5,12 +5,12 @@ using System;
 
 public class CameraMovement : MonoBehaviour
 {
-   public float moveSpeed = 10f; // Adjust the movement speed as needed
+   public float moveSpeed = 30f; 
    
    void Start()
     {
         // Set the camera's background color to dark gray
-        Camera.main.backgroundColor = new Color(0.2f, 0.2f, 0.2f); // Adjust the RGB values as needed
+        Camera.main.backgroundColor = new Color(0.2f, 0.2f, 0.2f); 
     }
 
     void Update()

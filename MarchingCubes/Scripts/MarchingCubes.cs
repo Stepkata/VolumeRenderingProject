@@ -5,13 +5,14 @@ using UnityEngine;
 public class MarchingCubes : MonoBehaviour
 {
     public MarchingCubeSettings settings;
-    [SerializeField] private readonly GameObject myPrefab;
+    [SerializeField] private GameObject myPrefab;
     public float rotationSpeed = 45f;
 
     private GameObject parentObject;
 
     public void Start()
     {
+
         List<List<GridCell>> gridCells = new();
         var isoLevel = 0f;
 
@@ -66,13 +67,7 @@ public class MarchingCubes : MonoBehaviour
             generatedObjects.Add(newObj);
         }
 
-        if (settings.showGrid){
-            var points = gen.points.GetData();
-            var values = gen.values.GetData();
-            for (int i=0; i<points.Count; i++){
-                ShowGrid(points[i], values[i]);
-            }
-        }
+        
 
     }
 
