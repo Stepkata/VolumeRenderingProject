@@ -12,4 +12,7 @@ Ray casting to technika wykorzystująca możliwości szybkiego przetwarzania ró
 ## Użytkowanie
 Zawartość folderu algorytmu powinna zostać przeniesiona do folderu "Assets" nowego projektu Unity, zastępując istniejące tam pliki. Projekt działa jak standrdowy projekt w Unity.
 
+## Dokumentacja
+Raport z projektu oraz nagrane przykładu użycia znajdują się w folderze Doc.
+
 ### Użyte dane pochodzą ze strony [Stanford Computer Graphics Laboratory](https://graphics.stanford.edu/data/voldata/)
